@@ -7,3 +7,10 @@ th, td, tr, textarea, button, form  {margin : 0; padding : 0;}
 /* a 링크 초기화 */
 a {color: #222; text-decoration: none;} /* a 링크 아래 밑줄 지우기*/
 a:hover {color : #390;}
+
+/* 폰트 초기화 */
+body, input, textarea, select, button, table {
+    font-family: 'Nanum Gothic',AppleSDGothicNeo-Regular, 'Malgun Gothic', '맑은 고딕', dotum, '돋움', serif ;
+    color :#222; font-size: 13px; line-height: 1.5;
+    /* 순차적으로 적용해줌: 첫번째 폰트가 없으면 두번째로, 두번째가 없으면 세번째로 적용  */
+}
